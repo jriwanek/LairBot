@@ -41,19 +41,19 @@ public class LoggingModule {
      * Setup and load the bots logging module.
      */
     public static void setupLoggingModule() {
-        if (MMDBot.getConfig().isEventLoggingModuleEnabled()) {
-            MMDBot.getInstance()
-                .addEventListener(
-                    new EventUserJoined(),
-                    new EventUserLeft(),
-                    new EventNicknameChanged(),
-                    new EventRoleAdded(),
-                    new EventRoleRemoved(),
-                    new EventReactionAdded(),
-                    new UserBanned());
-            MMDBot.LOGGER.warn("Event logging module enabled and loaded.");
-        } else {
-            MMDBot.LOGGER.warn("Event logging module disabled via config, Discord event logging won't work right now!");
-        }
+        //if (MMDBot.getConfig().isEventLoggingModuleEnabled()) {
+        //    MMDBot.getInstance()
+        //        .addEventListener(
+        //            new EventUserJoined(),
+        //            new EventUserLeft(),
+        //            new EventNicknameChanged(),
+        //            new EventRoleAdded(),
+        //            new EventRoleRemoved(),
+        //            new EventReactionAdded(),
+        //            new UserBanned());
+        //    MMDBot.LOGGER.warn("Event logging module enabled and loaded.");
+        //} else {
+        //    MMDBot.LOGGER.warn("Event logging module disabled via config, Discord event logging won't work right now!");
+        //}
     }
 }

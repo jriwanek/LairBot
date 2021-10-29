@@ -73,11 +73,11 @@ public final class CmdAbout extends SlashCommand {
         embed.setTitle("Bot Build info");
         embed.setColor(Color.GREEN);
         embed.setThumbnail(MMDBot.getInstance().getSelfUser().getAvatarUrl());
-        embed.setDescription("An in house bot to assists staff with daily tasks and provide fun and useful commands "
+        embed.setDescription("An in house bot to provide fun and useful commands "
             + "for the community, please try ``" + MMDBot.getConfig().getMainPrefix()
             + "help`` for a list of commands!");
         embed.addField("Version:", References.VERSION, true);
-        embed.addField("Issue Tracker:", Utils.makeHyperlink("MMDBot's Github", References.ISSUE_TRACKER),
+        embed.addField("Issue Tracker:", Utils.makeHyperlink("LairBot's Github", References.ISSUE_TRACKER),
             true);
         embed.addField("Current maintainers:", "jriwanek, WillBL, ProxyNeko, sciwhiz12, Poke, Curle",
             true);
