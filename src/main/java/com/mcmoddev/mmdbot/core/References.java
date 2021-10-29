@@ -37,7 +37,7 @@ public class References {
     /**
      * The name of the bot in code.
      */
-    public static final String NAME = "MMDBot";
+    public static final String NAME = "LairBot";
 
     /**
      * The bot's current version.
