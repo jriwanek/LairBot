@@ -61,7 +61,7 @@ public class References {
     /**
      * The issue tracker where bugs and crashes should be reported, and PR's made.
      */
-    public static final String ISSUE_TRACKER = "https://github.com/MinecraftModDevelopment/MMDBot/issues/";
+    public static final String ISSUE_TRACKER = "https://github.com/jriwanek/LairBot/issues/";
 
     /**
      * The constant COMMUNITY_CHANNEL_OWNER_PERMISSIONS.
